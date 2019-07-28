@@ -5,12 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = u'Matt DiNauta'
 SITENAME = u'mdinauta.github.io'
 SITEURL = 'http://mdinauta.github.io'
-# SITEURL = ''
-
 PATH = 'content'
-
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -35,4 +31,9 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 THEME = "pelican-themes/tuxlite_tbs"
-# THEME = "pelican-themes/zurb-F5-basic"
+
+MARKUP = ('md', 'ipynb')
+PLUGIN_PATH = './plugins'
+PLUGINS = ['ipynb.markup']
+
+IGNORE_FILES = ['.ipynb_checkpoints']
