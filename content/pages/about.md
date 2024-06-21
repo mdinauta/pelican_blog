@@ -1,5 +1,3 @@
 title: About
 
-I'm a Strategy & Business Operations Analyst at [Trulia](http://www.trulia.com), where I support our advertising business through data analysis. I plan to  use this blog mainly as a forum to write about data, programming, and statistics.
-
-My other interests are rock climbing, cycling, reading, and exploring Northern California.
+I'm a Principal Applied Scientist at [Zillow Group](http://www.zillow.com), where I work on statistical and machine learning models and data products. I plan to use this blog mainly as a forum to write about data, programming, and statistics.
